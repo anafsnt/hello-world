@@ -1,3 +1,5 @@
+# Python3 program to sort an array  
+# using bucket sort  
 def insertionSort(b): 
     for i in range(1, len(b)): 
         up = b[i] 
@@ -31,3 +33,12 @@ def bucketSort(x):
             x[k] = arr[i][j] 
             k += 1
     return x 
+  
+# Driver Code 
+x = [0.897, 0.565, 0.656, 
+     0.1234, 0.665, 0.3434]  
+print("Sorted Array is") 
+print(bucketSort(x)) 
+  
+# This code is contributed by 
+# Oneil Hsiao 
